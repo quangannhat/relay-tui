@@ -1,0 +1,14 @@
+{
+  "name": "relay-tui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "start": "bun run src/main.ts"
+  },
+  "dependencies": {
+    "relay-core": "workspace:*",
+    "effect": "^3.17.4"
+  }
+}
